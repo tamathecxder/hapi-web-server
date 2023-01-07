@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/tamathecxder/hapi-web-server/issues"
   },
-  "homepage": "https://github.com/tamathecxder/hapi-web-server#readme"
+  "homepage": "https://github.com/tamathecxder/hapi-web-server#readme",
+  "dependencies": {
+    "node": "^19.3.0"
+  }
 }
