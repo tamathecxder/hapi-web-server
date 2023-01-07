@@ -42,6 +42,20 @@ const routes = [
     }
   },
   {
+    method: "POST",
+    path: "/login",
+    handler: (request, h) => {
+      const { username, password } = request.payload;
+      const data = `${username} | ${password}`;
+
+      return h.response(data)
+        .code(201)
+        .type('application/json')
+        .header('X-Powered-By', "Hapi.js");
+
+    }
+  },
+  {
     method: "*",
     path: "/{any*}",
     handler: (request, h) => {
