@@ -1,0 +1,20 @@
+{
+  "name": "hapi-web-server",
+  "version": "1.0.0",
+  "description": "Hapi.js adalah framework JavaScript yang dapat digunakan untuk membangun aplikasi web server. Berikut adalah tahapan-tahapan dasar untuk membuat web server dengan Hapi.js:",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamathecxder/hapi-web-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tamathecxder/hapi-web-server/issues"
+  },
+  "homepage": "https://github.com/tamathecxder/hapi-web-server#readme"
+}
