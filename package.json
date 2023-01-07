@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/tamathecxder/hapi-web-server#readme",
   "dependencies": {
+    "@hapi/hapi": "^21.1.0",
     "node": "^19.3.0"
   }
 }
